@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textviewCatfact"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_padding_size_medium"
+    tools:text="@sample/catfacts.json/data/fact"/>
+<!-- TODO when separate screen for Catfact is implemented:
+        change lines to max of 2, add ellipsis -->
+<!-- TODO beautify (add padding, change font style, size, etc) -->

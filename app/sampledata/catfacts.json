@@ -1,0 +1,40 @@
+{
+  "total": 228,
+  "per_page": "7",
+  "current_page": 1,
+  "last_page": 33,
+  "next_page_url": "https://catfact.ninja/facts?page=2",
+  "prev_page_url": null,
+  "from": 1,
+  "to": 7,
+  "data": [
+    {
+      "fact": "When a cat chases its prey, it keeps its head level. Dogs and humans bob their heads up and down.",
+      "length": 97
+    },
+    {
+      "fact": "There are approximately 60,000 hairs per square inch on the back of a cat and about 120,000 per square inch on its underside.",
+      "length": 125
+    },
+    {
+      "fact": "Cat families usually play best in even numbers. Cats and kittens should be aquired in pairs whenever possible.",
+      "length": 110
+    },
+    {
+      "fact": "Cats often overract to unexpected stimuli because of their extremely sensitive nervous system.",
+      "length": 94
+    },
+    {
+      "fact": "Cats with long, lean bodies are more likely to be outgoing, and more protective and vocal than those with a stocky build.",
+      "length": 121
+    },
+    {
+      "fact": "The cat's tail is used to maintain balance.",
+      "length": 43
+    },
+    {
+      "fact": "Cats lose almost as much fluid in the saliva while grooming themselves as they do through urination.",
+      "length": 100
+    }
+  ]
+}
