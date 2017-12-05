@@ -1,7 +1,8 @@
-package io.rcm.purrfact
+package io.rcm.purrfact.view.catfacts
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import io.rcm.purrfact.R
 
 class CatFactsActivity : AppCompatActivity() {
 

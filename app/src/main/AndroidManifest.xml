@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="io.rcm.purrfact.CatFactsActivity">
+        <activity android:name="io.rcm.purrfact.view.catfacts.CatFactsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
     
