@@ -1,4 +1,4 @@
-package io.rcm.android.catfacts
+package io.rcm.purrfact
 
 import org.junit.Test
 

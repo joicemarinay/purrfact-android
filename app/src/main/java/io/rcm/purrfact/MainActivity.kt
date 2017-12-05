@@ -1,4 +1,4 @@
-package io.rcm.android.catfacts
+package io.rcm.purrfact
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

@@ -8,7 +8,7 @@ android {
     buildToolsVersion versions.buildTools
     compileSdkVersion versions.compileSdk
     defaultConfig {
-        applicationId "io.rcm.android.catfacts"
+        applicationId "io.rcm.purrfact"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode versions.versionCode
