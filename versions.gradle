@@ -18,6 +18,9 @@ ext.versions = [
     constraintLayout : '1.0.2',
     supportlib : '27.0.0',
 
+    //Android Architecture Components
+    roomDb : '1.0.0-rc1',
+
     //Test
     espresso : '3.0.1',
     junit : '4.12',
