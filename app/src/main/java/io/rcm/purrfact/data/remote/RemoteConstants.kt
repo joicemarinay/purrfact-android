@@ -7,6 +7,8 @@ internal class RemoteConstants {
 
     companion object {
 
+        const val BASE_API = "https://catfact.ninja/"
+
         const val ENDPOINT_FACTS = "facts"
 
         //Base response
