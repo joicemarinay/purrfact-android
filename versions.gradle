@@ -21,6 +21,10 @@ ext.versions = [
     //Android Architecture Components
     roomDb : '1.0.0-rc1',
 
+    //Reactive
+    rxandroid : '2.0.1',
+    rxjava : '2.1.7',
+
     //Test
     espresso : '3.0.1',
     junit : '4.12',

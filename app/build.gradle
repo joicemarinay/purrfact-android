@@ -30,6 +30,10 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:$versions.supportlib"
     implementation "com.android.support.constraint:constraint-layout:$versions.constraintLayout"
 
+    //Reactive
+    implementation "io.reactivex.rxjava2:rxandroid:$versions.rxandroid"
+    implementation "io.reactivex.rxjava2:rxjava:$versions.rxjava"
+
     //Room (Android Archi Component for DB)
     implementation "android.arch.persistence.room:runtime:$versions.roomDb"
     kapt "android.arch.persistence.room:compiler:$versions.roomDb"
