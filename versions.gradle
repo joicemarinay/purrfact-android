@@ -31,6 +31,7 @@ ext.versions = [
     testRunner : '1.0.1',
 
     //Third-party libraries
+    dagger : '2.13',
     okhttp : '3.9.1',
     retrofit : '2.3.0'
 ]
