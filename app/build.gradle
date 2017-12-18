@@ -34,6 +34,11 @@ dependencies {
     implementation "io.reactivex.rxjava2:rxandroid:$versions.rxandroid"
     implementation "io.reactivex.rxjava2:rxjava:$versions.rxjava"
 
+    //Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$versions.retrofit"
+    compile "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+    compile "com.squareup.retrofit2:adapter-rxjava2:$versions.retrofit"
+
     //Room (Android Archi Component for DB)
     implementation "android.arch.persistence.room:runtime:$versions.roomDb"
     kapt "android.arch.persistence.room:compiler:$versions.roomDb"
