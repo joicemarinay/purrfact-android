@@ -30,6 +30,9 @@ dependencies {
     implementation "com.android.support:recyclerview-v7:$versions.supportlib"
     implementation "com.android.support.constraint:constraint-layout:$versions.constraintLayout"
 
+    //Android Archi Component - Paging
+    implementation "android.arch.paging:runtime:$versions.paging"
+
     //Dagger
     implementation "com.google.dagger:dagger:$versions.dagger"
     kapt "com.google.dagger:dagger-compiler:$versions.dagger"

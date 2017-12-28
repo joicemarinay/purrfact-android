@@ -19,6 +19,7 @@ ext.versions = [
     supportlib : '27.0.0',
 
     //Android Architecture Components
+    paging : '1.0.0-alpha4-1',
     roomDb : '1.0.0-rc1',
 
     //Reactive
