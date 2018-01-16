@@ -26,15 +26,5 @@ internal abstract class BaseResponse {
     @SerializedName(RemoteConstants.TOTAL)
     lateinit var total: String
 
-    fun getCurrentPage(): Int = currentPage as Int
-
-    fun getLastPage(): Int = lastPage as Int
-
-    fun getPerPage(): Int = perPage as Int
-
-    fun getFrom(): Int = from as Int
-
-    fun getTo(): Int = to as Int
-
-    fun getTotal(): Int = total as Int
+    val nextPage get(): String = currentPage.toInt().plus(1).toString()
 }
