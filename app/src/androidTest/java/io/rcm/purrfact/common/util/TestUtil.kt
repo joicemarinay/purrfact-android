@@ -1,4 +1,4 @@
-package io.rcm.purrfact.util
+package io.rcm.purrfact.common.util
 
 import io.rcm.purrfact.data.CatFact
 

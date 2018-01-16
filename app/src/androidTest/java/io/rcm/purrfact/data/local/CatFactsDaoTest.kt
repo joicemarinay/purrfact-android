@@ -2,7 +2,7 @@ package io.rcm.purrfact.data.local
 
 import android.support.test.runner.AndroidJUnit4
 import io.rcm.purrfact.data.CatFact
-import io.rcm.purrfact.util.createCatFact
+import io.rcm.purrfact.common.util.createCatFact
 import junit.framework.TestCase.assertNotNull
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.CoreMatchers.notNullValue
