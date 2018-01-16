@@ -23,6 +23,6 @@ internal class RemoteConstants {
         //Query param
         const val LIMIT = "limit"
         const val MAX_LENGTH = "max_length"
-        const val PAGE = "limit"
+        const val PAGE = "page"
     }
 }
