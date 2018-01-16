@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="maxlength_max">365</integer>
+    <integer name="maxlength_seekbar_default">180</integer>
+    <integer name="textview_maxlength_progress_maxchar">3</integer>
+</resources>

@@ -5,8 +5,11 @@
     
     <dimen name="divider_width_height">1dp</dimen>
     
+    <dimen name="margin_padding_none">0dp</dimen>
+    <dimen name="margin_padding_size_xsmall">4dp</dimen>
     <dimen name="margin_padding_size_small">8dp</dimen>
     <dimen name="margin_padding_size_medium">16dp</dimen>
+    <dimen name="margin_padding_size_midlarge">24dp</dimen>
     <dimen name="margin_padding_size_large">32dp</dimen>
     
     <dimen name="text_size_micro">12sp</dimen>
@@ -17,4 +20,7 @@
     <dimen name="text_size_xxlarge">45sp</dimen>
     <dimen name="text_size_xxxlarge">56sp</dimen>
     <dimen name="text_size_xxxxlarge">112sp</dimen>
+    
+    <!--Specific -->
+    <dimen name="catfacts_view_maxlength_bg_height">54dp</dimen>
 </resources>
