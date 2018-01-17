@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.catfacts_activity.*
 internal class CatFactsActivity : AppCompatActivity() {
 
     companion object {
-        private val TAG = this::class.java.simpleName
+        private val TAG = CatFactsActivity::class.java.simpleName
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
