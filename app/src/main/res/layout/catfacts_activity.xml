@@ -1,0 +1,87 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true"
+    tools:context=".view.catfacts.CatFactsActivity">
+    
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="@dimen/margin_padding_none"
+        android:layout_height="@dimen/margin_padding_none"
+        android:fitsSystemWindows="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+    
+        <!-- TODO add SwipeRefreshLayout later -->
+        
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerviewCatfacts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/margin_padding_size_xsmall"
+            android:paddingRight="@dimen/margin_padding_size_xsmall"
+            android:paddingTop="@dimen/margin_padding_size_xsmall"
+            android:scrollbars="vertical"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:listitem="@layout/catfacts_item"/>
+        
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary">
+    
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/catfacts_view_maxlength_bg_height"
+                android:background="@null"
+                app:layout_scrollFlags="scroll|enterAlways"/>
+
+        </android.support.design.widget.AppBarLayout>
+    </android.support.design.widget.CoordinatorLayout>
+    
+    <!-- A classic LinearLayout with a rounded white drawable can be used here as well,
+        but to be a little "fancy" I'm using a CardView 😏 -->
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardviewMaxLengthContainer"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/margin_padding_size_small"
+        app:cardUseCompatPadding="true"
+        app:contentPaddingBottom="@dimen/margin_padding_size_xsmall"
+        app:contentPaddingLeft="@dimen/margin_padding_size_small"
+        app:contentPaddingRight="@dimen/margin_padding_size_medium"
+        app:contentPaddingTop="@dimen/margin_padding_size_xsmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        
+        <android.support.v7.widget.AppCompatSeekBar
+            android:id="@+id/seekbarMaxLength"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="@dimen/margin_padding_size_midlarge"
+            android:max="@integer/maxlength_max"
+            android:progress="@integer/maxlength_seekbar_default"/>
+        
+        <TextView
+            android:id="@+id/textviewMaxLengthProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:maxLength="@integer/textview_maxlength_progress_maxchar"
+            android:textSize="@dimen/text_size_medium"
+            tools:text="@tools:sample/us_zipcodes"/>
+    </android.support.v7.widget.CardView>
+    
+</android.support.constraint.ConstraintLayout>

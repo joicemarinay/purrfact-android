@@ -1,0 +1,38 @@
+/**
+ * Contains app versioning, versions of dependencies, SDK, and tools
+ */
+ext.versions = [
+    //Default config
+    buildTools : '27.0.0',
+    compileSdk : 27,
+    minSdk : 19,
+    targetSdk : 27,
+    versionCode : 1,
+    versionName: '1.0.0',
+
+    //Framework
+    gradle : '3.0.1',
+    kotlin : '1.2.0',
+
+    //Android
+    constraintLayout : '1.0.2',
+    supportlib : '27.0.0',
+
+    //Android Architecture Components
+    paging : '1.0.0-alpha4-1',
+    roomDb : '1.0.0-rc1',
+
+    //Reactive
+    rxandroid : '2.0.1',
+    rxjava : '2.1.7',
+
+    //Test
+    espresso : '3.0.1',
+    junit : '4.12',
+    testRunner : '1.0.1',
+
+    //Third-party libraries
+    dagger : '2.13',
+    okhttp : '3.9.1',
+    retrofit : '2.3.0'
+]
